@@ -8,7 +8,17 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:Name="button" Content="start " HorizontalAlignment="Stretch" Margin="808,298,287,275" VerticalAlignment="Stretch" FontSize="32" Click="button_Click"/>
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="181*"/>
+            <RowDefinition Height="587*"/>
+        </Grid.RowDefinitions>
+        <Grid Margin="10" Grid.RowSpan="2"/>
+        <Grid HorizontalAlignment="Left" Height="567" Margin="5,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="1351">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="674*"/>
+                <ColumnDefinition Width="677*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="button" Content="Start" Grid.Column="1" HorizontalAlignment="Stretch" Margin="150,150,130,169" VerticalAlignment="Stretch" FontSize="64" FontWeight="Normal" Click="button_Click_1"/>
+        </Grid>
     </Grid>
 </Page>

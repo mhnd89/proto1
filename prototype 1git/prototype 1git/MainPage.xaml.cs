@@ -34,5 +34,11 @@ namespace prototype_1git
 
 
         }
+
+        private void button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(navigation_panel));
+
+        }
     }
 }
