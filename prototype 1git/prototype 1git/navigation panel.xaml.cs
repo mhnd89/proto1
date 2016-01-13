@@ -20,19 +20,11 @@ namespace prototype_1git
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class MainPage : Page
+    public sealed partial class navigation_panel : Page
     {
-        public MainPage()
+        public navigation_panel()
         {
             this.InitializeComponent();
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(navigation_panel));
-
-
-
         }
     }
 }
